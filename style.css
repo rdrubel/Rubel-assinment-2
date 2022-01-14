@@ -20,7 +20,7 @@ main{
 .pic{
     margin-left: 15%;
 }
-span{
+.preebook{
     background-color: rgb(221, 15, 15);
     color: white;
     padding-left: 20px;
@@ -28,4 +28,35 @@ span{
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 20px;
+}
+
+#popular{
+    text-align-last: center;
+    margin-top: 5%;
+}
+.rating{
+    color: goldenrod;
+    font-size: 10px;
+    padding-right: 5px;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px ;
+    grid-column-gap: 5px ;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.blog{
+    font-size: 15px;
+    background-color: oldlace;
+    padding: 15px;
+    width: 300px;
+    border-radius: 10px;
+    
+}
+.see{
+    color: orangered;
+    margin-top: 5%;
 }
