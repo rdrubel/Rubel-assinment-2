@@ -60,3 +60,29 @@ main{
     color: orangered;
     margin-top: 5%;
 }
+
+.part-3{
+    margin-left: 40%;
+}
+
+h3{
+    background-color: crimson;
+    display: inline-block;
+    padding: 20px 65px;
+    color: white;
+}
+h4{
+    color: paleturquoise;
+}
+footer{
+    color: cornsilk;
+    background-color: rgb(8, 8, 49);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.icon{
+    font-size: 25px;
+}
