@@ -1,8 +1,12 @@
+/* -----------font---------- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+/* --------part 1--------- */
+
 .part-1{
     display: flex;
     }
@@ -36,6 +40,8 @@ main{
     border-radius: 20px;
 }
 
+/* ---------part 2-------- */
+
 #popular{
     text-align-last: center;
     margin-top: 5%;
@@ -68,6 +74,8 @@ main{
     margin-left: 1100px;
 }
 
+/* ---------part 3-------- */
+
 .part-3{
     margin-left: 40%;
 }
@@ -93,3 +101,44 @@ footer{
 .icon{
     font-size: 25px;
 }
+
+/* media queries */
+
+/* -----mobile devices---- */
+
+@media only screen and (max-width: 688px) {
+    .part-1{
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                width: 100%;
+                
+    }
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-content: center;
+    }
+    .see{
+        margin-left: 220px;
+    }
+  }
+
+  /* ------tablet------ */
+  @media only screen and (min-width: 688px) and  (max-width: 992px) {
+    .part-1{
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                width: 100%;
+                align-content: center;
+                
+    }
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-content: center;
+    }
+    .see{
+        margin-left: 550px;
+    }
+  }
+
