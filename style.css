@@ -20,6 +20,12 @@ main{
 .pic{
     margin-left: 15%;
 }
+.pic :hover{
+    width: 400px;
+    height: 400px;
+    transform: rotate(360deg);
+    transition: width 5s, ease, height 5s, ease, transform 3s;
+}
 .preebook{
     background-color: rgb(221, 15, 15);
     color: white;
@@ -58,7 +64,8 @@ main{
 }
 .see{
     color: orangered;
-    margin-top: 5%;
+    margin-top: 35px;
+    margin-left: 1100px;
 }
 
 .part-3{
